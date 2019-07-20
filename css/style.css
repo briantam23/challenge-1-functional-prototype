@@ -1,0 +1,33 @@
+#title {
+    margin: 30px 0 0 20px;
+}
+
+#content {
+    margin: 40px 80px 0;
+}
+
+#top-container {
+    display: flex;
+    flex-direction: row;
+}
+.top-img {
+    background-color: #2881BB;
+    min-height: 100%;
+    min-width: 60%;
+}
+.top-content {
+    margin-left: 20px;
+    width: 40%;
+}
+.top-content p {
+    margin-top: 0px;
+}
+
+.sm-article {
+    min-height: 100%;
+    min-width: 60%;
+}
+
+#middle-container div:first-child .sm-img {
+    background-color: #2C7FBA;
+}
