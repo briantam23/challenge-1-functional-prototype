@@ -1,33 +1,94 @@
 #title {
-    margin: 30px 0 0 20px;
+    margin: 30px 0 0 60px;
 }
 
 #content {
-    margin: 40px 80px 0;
+    margin: 40px 140px 0;
 }
 
 #top-container {
     display: flex;
     flex-direction: row;
+    min-height: 245px;
+    width: 880px;
 }
-.top-img {
+#top-container .top-img {
     background-color: #2881BB;
-    min-height: 100%;
-    min-width: 60%;
+    height: 200px;
+    min-width: 600px;
 }
-.top-content {
-    margin-left: 20px;
-    width: 40%;
-}
-.top-content p {
-    margin-top: 0px;
+#top-container .top-content p {
+    margin: 0 0 0 20px;
+    min-width: 200px;
 }
 
-.sm-article {
-    min-height: 100%;
-    min-width: 60%;
+#middle-container {
+    display: flex; 
+    margin-top: 40px; 
+    min-height: 245px;
+    width: 930px;
 }
-
-#middle-container div:first-child .sm-img {
+#middle-container .sm-article {
+    height: 160px;
+    width: 200px;
+    margin-right: 50px;
+}
+#middle-container .sm-article .sm-img {
+    height: 80px;
+    width: 165px;
+    margin-bottom: 40px;
+}
+#middle-container .sm-article .sm-text {
+    background-color: #D1D2CC;
+    height: 40px;
+    width: 165px;
+}
+#middle-container div:nth-child(1) .sm-img {
     background-color: #2C7FBA;
+}
+#middle-container div:nth-child(2) .sm-img {
+    background-color: #2C6087;
+}
+#middle-container div:nth-child(3) .sm-img {
+    background-color: #9144AB;
+}
+#middle-container div:nth-child(4) .sm-img {
+    background-color: #EF763D;
+}
+
+#bottom-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px; 
+    min-height: 245px;
+    width: 880px;
+}
+#bottom-container .md-article {
+    height: 260px;
+    margin-right: 73px;
+}
+#bottom-container .md-img {
+    height: 80px;
+    min-width: 240px;
+    margin-bottom: 40px;
+}
+#bottom-container .md-text-1 {
+    background-color: #D1D2CC;
+    min-height: 40px;
+    min-width: 220px;
+}
+#bottom-container .md-text-2 {
+    background-color: #D1D2CC;
+    min-height: 40px;
+    min-width: 220px;
+    margin-top:40px;
+}
+#bottom-container div:nth-child(1) .md-img {
+    background-color: #CC3E30;
+}
+#bottom-container div:nth-child(2) .md-img {
+    background-color: #F2C512;
+}
+#bottom-container div:nth-child(3) .md-img {
+    background-color: #2C975F;
 }
